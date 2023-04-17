@@ -1,78 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-home</title>
-</head>
-<body style="background-color: rgb(211, 158, 23);">
-    <main>
-        <nav>
-            <table border="3" width="700" align="center" height="70">
-                <tr>
-                    <th width="200">
-                        <img src="./assests/téléchargement.png" alt="" width="200" height="70">
-                    </th>
-                    <th align="center">
-                        <a href="./home.html">HOME</a>&nbsp;&nbsp;
-                        <a href="./contact.html">CONTACT</a>&nbsp;&nbsp;
-                        <a href="./work.html">WORK</a>&nbsp;&nbsp;
-                        <a href="./about.html">ABOUT</a>&nbsp;&nbsp;
-                        <a href="./portfolio.html">WELCOMES</a>
-                    </th>
-                </tr>
-            </table>
-        </nav>
-        <br><br><br><br><br><br><br><br><br>
-        <section>
-            <table border="3" width="700" align="center" height="70">
-                <th>
-                    <font size="6">M Y &nbsp;&nbsp;&nbsp; W O R K S</font>
-                </th>
-            </table>
-        </section>
-        <br><br><br><br><br><br><br><br><br>
-        <section>
-            <table border="3" width="200" align="center" height="70">
-                <th>
-                    <a href="#2020WORK">2020WORK</a><br>
-                    <a href="#2021WORK">2021WORK</a><br>
-                    <a href="#2022WORK">2022WORK</a>
-                </th>
-            </table>
-        </section>
-        <br><br><br><br><br><br><br><br><br>
-        <section id="2020WORK">
-            <table border="3" align="center" >
-                <th bgcolor="green">
-                    <h1>APRIL 2020</h1>
-                    <p>Creating a marketplace webpage</p>
-                </th>
-            </table>
-        </section>
-        <br><br><br><br><br><br><br><br><br>
-        <section id="2021WORK">
-            <table border="3" align="center" >
-                <th bgcolor="green">
-                    <h1>APRIL 2021</h1>
-                    <p>
-                        Creating webpage to help 
-                        people to learn html/css/js
-                    </p>
-                </th>
-            </table>
-        </section>
-        <br><br><br><br><br><br><br><br><br>
-        <section id="2022WORK">
-            <table border="3" align="center" >
-                <th bgcolor="green">
-                    <h1>APRIL 2022</h1>
-                    <p>Creating webpage to help 
-                        people to learn how to design</p>
-                </th>
-            </table>
-        </section>
-    </main>
-</body>
+    <head>
+        <link rel="stylesheet" href="style_work.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio-home</title>
+    </head>
+    <body>
+        <main>
+            <div class="hero">
+                <header>
+                    <nav>
+                        <h2 class="logo">Portfolio</h2>
+                        <ul>
+                            <li><a href="./portfolio.html">WELCOMES</a></li>
+                            <li><a href="./home.html">HOME</a></li>
+                            <li><a href="./about.html">ABOUT</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                            <li><a href="./work.html">WORK</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="bg">
+                    <img src="./assests/téléchargement.jpg" alt="fbds" width="450px">
+                </div>
+                <div class="content">
+                        <h1 >April 2020</h1>
+                        <p>Creating a marcket place webpage</p>
+                        <h1>April 2021</h1>
+                        <p>Creating a website to help people how to code</p>
+                        <h1>April 2022</h1>
+                        <p>Creating a to help people how to design</p>
+                </div>
+            </div>
+            
+        </main>
+    </body>
 </html>
